@@ -1,0 +1,38 @@
+.filters {
+	width: 100%;
+	background-color: $highlightBg;
+	margin: 45px 0;
+	box-shadow: none;
+
+	.p-card-body {
+		padding: 45px 50px 25px 50px;
+	}
+
+	.p-card-content {
+		width: 100%;
+		padding: 0;
+		display: inline-flex;
+		justify-content: space-between;
+		gap: 40px;
+	}
+
+	.p-inputtext {
+		border: transparent;
+	}
+
+	.p-button {
+		background-color: var(--surface-0);
+	}
+
+	&__label {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		font-size: 14px;
+		line-height: 17px;
+
+		label {
+			margin-bottom: 4px;
+		}
+	}
+}

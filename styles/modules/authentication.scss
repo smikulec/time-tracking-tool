@@ -1,0 +1,87 @@
+.authentication-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	.p-card {
+		width: 400px;
+		background-color: $highlightBg;
+		border: 1px solid $highlightBorder;
+		border-radius: 10px;
+		box-shadow: none;
+
+		.p-card-content {
+			padding: 0;
+		}
+	}
+
+	&__container {
+		margin-top: 145px;
+		margin-bottom: 30px;
+
+		.p-card-title {
+			color: $primaryDarkColor;
+			text-align: center;
+			margin-bottom: 50px;
+		}
+
+		.p-card-body {
+			padding: 45px 35px 60px 35px;
+		}
+	}
+
+	&__info {
+		margin-bottom: 50px;
+
+		&-text {
+			font-weight: 600;
+			font-size: 18px;
+			padding: 0 0 20px 35px;
+		}
+
+		&-link {
+			color: $secondaryColor;
+			font-size: 14px;
+			line-height: 17px;
+			font-weight: 700;
+			text-decoration: underline;
+			margin-top: 5px;
+		}
+
+		.p-card-body {
+			padding: 15px 0 0 20px;
+		}
+
+		.p-card-content {
+			display: flex;
+			align-items: flex-end;
+		}
+	}
+
+	&__inputs {
+		.p-float-label {
+			margin-bottom: 30px;
+			width: 100%;
+
+			& > label {
+				left: 20px;
+			}
+		}
+
+		.p-inputtext {
+			padding: 12px 20px;
+			border: 1px solid #ffffff;
+		}
+	}
+
+	&__input,
+	&__button {
+		width: 100%;
+	}
+
+	&__button {
+		margin-top: 20px;
+		justify-content: center;
+	}
+}
